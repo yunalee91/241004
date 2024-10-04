@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/*   <!--------------- footer ----------------> */
+
+.family_logo ul {
+  background-color: #F3F3F3;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0 100px;
+}
+
+.family_logo img {
+  height: 28px;
+}
+/* --------------- */
+.footer {
+    background-color: #2A2A2A;
+    color: #979797;
+    height: 300px;
+    padding: 50px 150px;
+  }
+.footer_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* logo */
+.footer img {
+  height: 41px;
+  width: 349px;
+}
+/* link */
+.footer_link a {
+  padding: 0 15px;
+  font-size: 15px;
+  color: #979797;
+  letter-spacing: -0.031em;
+}
+/* adress */
+.footer_adress {
+  font-size: 14px;
+  padding: 40px 0;
+}
+.footer_adress p {
+  margin-bottom: 5px;
+}
